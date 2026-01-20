@@ -17,17 +17,24 @@ This repository contains a comprehensive set of "Skills" for the Antigravity age
 
 ```text
 .
-├── .agent/skills/           # Managed skills directory
-│   ├── acting-as-cto/       # Architecture & strategy role
-│   ├── automated-testing/   # Testing workflows (Vite/Next.js)
-│   ├── brainstorming/       # Idea refinement & design exploration
-│   ├── brand-identity/      # Design tokens & tech stack
-│   ├── handling-peer-reviews/# Analysis of external feedback
-│   ├── planning/            # Optimized implementation plans
-│   ├── reviewing-code/      # Standardized code review checklist
-│   └── troubleshooting/     # Universal error-handling patterns
+├── .agent/
+│   ├── skills/              # Managed skills directory
+│   │   ├── acting-as-cto/   # Architecture & strategy role
+│   │   ├── ...              # Other specialized skills
+│   └── workflows/           # Procedural slash commands
+│       ├── draft-prd        # /draft-prd command
+│       ├── generate-tasks   # /generate-tasks command
+│       └── execute-tasks    # /execute-tasks command
 └── antigravity-skill-creator.md # System instructions for skill generation
 ```
+
+## 🌊 Workflows (Commands)
+
+These are specific, procedural "recipes" you can trigger using slash commands:
+
+- **`/draft-prd`**: Guided interview to turn a vague idea into a detailed Product Requirements Document (tasks/ folder).
+- **`/generate-tasks`**: Analyzes a PRD and generates a hierarchical checklist (tasks/ folder).
+- **`/execute-tasks`**: The coding engine. Implements tasks one-by-one, runs tests, and creates standardized commits.
 
 ## 🛠 Using the Skill Creator
 
