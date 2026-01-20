@@ -1,6 +1,6 @@
 # Antigravity Skills Template
 
-This repository contains a comprehensive set of "Skills" for the Antigravity agent environment, along with a system for generating new high-quality skills.
+This repository contains a comprehensive set of "Skills" for the Antigravity agent environment, along with a system for generating new high-quality skills to development.
 
 ## 🚀 Key Features
 
