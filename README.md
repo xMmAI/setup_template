@@ -51,6 +51,3 @@ Every skill in this repository adheres to:
 - **Claude Way**: Concise, progressive disclosure, and smart defaults.
 - **Workflow-Driven**: High-freedom heuristics mixed with low-freedom commands.
 - **Status Tracking**: Uses 🟩, 🟨, 🟥 for progress visualization in plans.
-
----
-*Created by Antigravity for Advanced Agentic Coding.*
